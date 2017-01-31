@@ -10,13 +10,15 @@ params = source.getparams()
 #и задаем для нового такие же
 result.setparams(params)
 
+# узнаем количество отсчетов в файле
 nframes = source.getnframes()
 
-data = struct.unpack("<"+str(nframes)+"h", source.readframes(nframes))
-newdata = []
+frames = struct.unpack("<"+str(nframes)+"h", source.readframes(nframes)) # строка из байт -> список отсчетов
 
-newdata = data[::2]
+newframes = []
 
-newframes = struct.pack("<"+str(len(newdata))+"h", *newdata)
+newframes = frames[::2] # удаляем каждый второй
 
-result.writeframes(newframes)
+data = struct.pack("<"+str(len(newframes))+"h", *newframes) # список отсчетов -> строка из байт
+
+result.writeframes(data) # отправляем на динамик
