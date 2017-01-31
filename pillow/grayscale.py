@@ -1,19 +1,19 @@
 from PIL import Image
 
-im = Image.open("cat.jpg").convert("rgb")
+im = Image.open("cat.jpg").convert("RGB") # преобразование в RGB
 im_black = im.copy()
 pixels = im.load()
 pixels_black = im_black.load()
 
 for i in range(im.width):
     for j in range(im.height):
-        r,g,b = pixels[i,j]
+        r, g, b = pixels[i, j]
 
-        a = (r+g+b)//3
-        pixels[i, j] =(a,a,a)
+        a = (r + g + b) // 3
+        pixels[i, j] = (a, a, a)
 
-        if a<170:
-            pixels_black[i,j]=(0,0,0)
+        if a < 170:
+            pixels_black[i, j] = (0, 0, 0)
         else:
             pixels_black[i, j] = (255, 200, 200)
 im.show()
