@@ -1,5 +1,6 @@
 import tornado.ioloop
 import tornado.web
+import random
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -12,7 +13,16 @@ class HelloHandler(tornado.web.RequestHandler):
 
 class CatHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("cat.html")
+        cats = [
+            {"id": 1, "name": "Лунтик"},
+            {"id": 2, "name": "Фирамир"},
+            {"id": 3, "name": "Товарищ Буденый"},
+            {"id": 4, "name": "Эльдар Джарахов"},
+            {"id": 5, "name": "Кончик"},
+            {"id": 6, "name": "Черный Вжух"},
+        ]
+        cat = random.choice(cats)
+        self.render("cat.html", name=cat["name"], id=cat["id"])
 
 settings = [
     ('/', MainHandler),
