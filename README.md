@@ -33,3 +33,14 @@
   - Статистика: [roctbb.net:8888/stats](http://roctbb.net:8888/stats)
 
 **ДЗ: Подготовиться к соревнованию танков.**
+
+## Занятие 4: Веб-сервер Tornado
+
+1. Общая схема работы по HTTP - [https://habrahabr.ru/post/215117/](подробнее).
+2. Язык разметки HTML:
+  - [http://htmlbook.ru/samhtml](самоучитель htmlbook.ru)
+  - [https://www.codecademy.com/learn/web](Интерактивный курс на CodeAcademy)
+3. Веб-сервер Tornado:
+  - [Документация](http://www.tornadoweb.org/en/stable/)
+
+**ДЗ: Написать сайт, генерирующий случайные истории.**
