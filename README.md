@@ -36,7 +36,7 @@
 
 ## Занятие 4: Веб-сервер Tornado
 
-1. Общая схема работы по HTTP - [https://habrahabr.ru/post/215117/](подробнее).
+1. Общая схема работы по HTTP - [https://habrahabr.ru/post/215117/](https://habrahabr.ru/post/215117/).
 2. Язык разметки HTML:
   - [http://htmlbook.ru/samhtml](самоучитель htmlbook.ru)
   - [https://www.codecademy.com/learn/web](Интерактивный курс на CodeAcademy)
@@ -44,3 +44,7 @@
   - [Документация](http://www.tornadoweb.org/en/stable/)
 
 **ДЗ: Написать сайт, генерирующий случайные истории.**
+
+## Занятие 5: POST запросы в Tornado, загрузка файлов
+
+**ДЗ: Написать сайт с несколькими фотофильтрами.**
