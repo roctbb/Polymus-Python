@@ -52,9 +52,9 @@
 
 ## Занятие 6: Хранения данных в формате JSON, авторизация в Tornado
 
-1. [http://www.json.org/json-ru.html](Описание формата JSON)
-2. [http://pythonicway.com/python-fileio](Работа с файлами в Python)
-3. [http://www.tornadoweb.org/en/stable/template.html](Синтаксис шаблонов Tornado)
-4. [http://www.tornadoweb.org/en/stable/guide/security.html](Tornado user authentication)
+1. [Описание формата JSON](http://www.json.org/json-ru.html)
+2. [Работа с файлами в Python](http://pythonicway.com/python-fileio)
+3. [Синтаксис шаблонов Tornado](http://www.tornadoweb.org/en/stable/template.html)
+4. [Tornado user authentication](http://www.tornadoweb.org/en/stable/guide/security.html)
 
 **ДЗ: Написать блог с панелью администратора, доступной по паролю.**
