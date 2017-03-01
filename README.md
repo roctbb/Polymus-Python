@@ -40,6 +40,7 @@
 2. Язык разметки HTML:
   - [http://htmlbook.ru/samhtml](самоучитель htmlbook.ru)
   - [https://www.codecademy.com/learn/web](Интерактивный курс на CodeAcademy)
+  - [http://getbootstrap.com](HTML фреймфорк Bootstrap)
 3. Веб-сервер Tornado:
   - [Документация](http://www.tornadoweb.org/en/stable/)
 
@@ -48,3 +49,12 @@
 ## Занятие 5: POST запросы в Tornado, загрузка файлов
 
 **ДЗ: Написать сайт с несколькими фотофильтрами.**
+
+## Занятие 6: Хранения данных в формате JSON, авторизация в Tornado
+
+1. [http://www.json.org/json-ru.html](Описание формата JSON)
+2. [http://pythonicway.com/python-fileio](Работа с файлами в Python)
+3. [http://www.tornadoweb.org/en/stable/template.html](Синтаксис шаблонов Tornado)
+4. [http://www.tornadoweb.org/en/stable/guide/security.html](Tornado user authentication)
+
+**ДЗ: Написать блог с панелью администратора, доступной по паролю.**
