@@ -48,6 +48,8 @@
 
 ## Занятие 5: POST запросы в Tornado, загрузка файлов
 
+1. [Загрузка файлов в Tornado](http://stackoverflow.com/questions/11909397/how-to-upload-an-image-with-python-tornado-from-an-html-form)
+
 **ДЗ: Написать сайт с несколькими фотофильтрами.**
 
 ## Занятие 6: Хранения данных в формате JSON, авторизация в Tornado
