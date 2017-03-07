@@ -12,7 +12,9 @@ class BaseHandler(tornado.web.RequestHandler):
 
 class MainHandler(BaseHandler):
     def get(self):
-
+        if self.get_current_user() == None:
+            self.redirect('/login')
+            return
         messages = db['messages'].find()
 
         self.render('chat.html', messages=messages)
