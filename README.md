@@ -60,3 +60,10 @@
 4. [Tornado user authentication](http://www.tornadoweb.org/en/stable/guide/security.html)
 
 **ДЗ: Написать блог с панелью администратора, доступной по паролю.**
+
+## Занятие 7: NoSQL базы данных на примере MongoDB
+
+1. [Tutroial по PyMongo](http://api.mongodb.com/python/current/tutorial.html)
+2. [MLab - удобный хостинг для MongoDB (500 мб бесплатно)](https://mlab.com/)
+
+**ДЗ: Добавить регистрацию и вход по логину и паролю в чат.**
