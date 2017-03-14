@@ -67,3 +67,6 @@
 2. [MLab - удобный хостинг для MongoDB (500 мб бесплатно)](https://mlab.com/)
 
 **ДЗ: Добавить регистрацию и вход по логину и паролю в чат.**
+
+## Занятие 8: Telegram-бот на Python
+1. [Руководство по созданию ботов](https://www.gitbook.com/book/groosha/telegram-bot-lessons/details)
