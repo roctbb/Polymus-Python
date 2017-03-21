@@ -1,13 +1,24 @@
+import json
+
 import telebot
 from threading import Thread
-
+import requests
 import time
 
-token = "YOUR TOKEN"
+token = "332111059:AAGI8_XicORXFMFrzxjQpb-LOqx9EUmdB8I"
 
 bot = telebot.TeleBot(token)
 
 users = set()
+
+@bot.message_handler(commands=['image'])
+def start_images(message):
+    bot.send_photo(message.chat.id, "http://mironovacolor.org/articles/article_07/hora_5_sokrovish.jpg")
+
+@bot.message_handler(commands=['music'])
+def start_music(message):
+    bot.send_audio(message.chat.id, "http://cdndl.zaycev.net/869165/4188966/%D0%91%D0%90%D0%A3%D0%B3%D0%BD%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_-_%D0%93%D0%BE%D0%BB%D0%BE%D1%81+%D0%9E%D0%B2%D0%BE%D1%89%D0%B5%D0%B9+%28demo%29.mp3")
+
 
 @bot.message_handler(commands=['spam'])
 def start_spam(message):
