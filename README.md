@@ -73,7 +73,7 @@
 
 **ДЗ: Написать собственного бота в Telegram.**
 
-## Занятие 8: Взаимодействие в внешними API
+## Занятие 9: Взаимодействие в внешними API
 1. [Библиотека Requests - GET и POST запросы из Python](http://docs.python-requests.org/en/master/)
 2. [microsoft cognitive services](https://www.microsoft.com/cognitive-services/en-us/apis)
 
