@@ -70,3 +70,11 @@
 
 ## Занятие 8: Telegram-бот на Python
 1. [Руководство по созданию ботов](https://www.gitbook.com/book/groosha/telegram-bot-lessons/details)
+
+**ДЗ: Написать собственного бота в Telegram.**
+
+## Занятие 9: Взаимодействие в внешними API
+1. [Библиотека Requests - GET и POST запросы из Python](http://docs.python-requests.org/en/master/)
+2. [microsoft cognitive services](https://www.microsoft.com/cognitive-services/en-us/apis)
+
+**ДЗ: Фотофильтр, который использует распознавание лиц или зависит от настроения человека на фотографии.**
